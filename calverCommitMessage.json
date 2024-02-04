@@ -4,12 +4,12 @@
     {
       "matchDatasources": ["docker", "pypi"],
       "matchPackagePatterns": ["home-assistant$", "esphome$"],
-      "extends": ["github>oben91/renovate-config:fullVersion"]
+      "extends": ["github>oben01/renovate-config:fullVersion"]
     },
     {
       "matchDatasources": ["docker"],
       "matchDepNames": ["ghcr.io/gurucomputing/headscale-ui"],
-      "extends": ["github>oben91/renovate-config:fullVersion"]
+      "extends": ["github>oben01/renovate-config:fullVersion"]
     }
   ]
 }
