@@ -1,0 +1,29 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":disableRateLimiting",
+    ":automergePr",
+    ":enablePreCommit",
+    ":semanticCommits",
+    ":maintainLockFilesMonthly",
+    "github>oben91/renovate-config:nodeDockerLts",
+    "github>oben91/renovate-config:nodeDevDependencies",
+    "github>oben91/renovate-config:githubActions",
+    "github>oben91/renovate-config:labels",
+    "github>oben91/renovate-config:axiosPatchSchedule",
+    "github>oben91/renovate-config:bitnamiSchedule",
+    "github>oben91/renovate-config:calverCommitMessage",
+    "github>oben91/renovate-config:php",
+    "github>oben91/renovate-config:versionRules",
+    "github>oben91/renovate-config:prettierGroup",
+    "github>oben91/renovate-config:vite"
+  ],
+  "gitIgnoredAuthors": ["29139614+renovate[bot]@users.noreply.github.com"],
+  "platformAutomerge": true,
+  "reviewersFromCodeOwners": true,
+  "transitiveRemediation": true,
+  "git-submodules": {
+    "enabled": true
+  }
+}
